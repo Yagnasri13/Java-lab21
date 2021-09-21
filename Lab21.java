@@ -20,3 +20,16 @@ class Lab21 extends Thread
   System.out.println("t2="+t2.getState());
  }
 }
+
+OUTPUT:
+Z:\mca16.java>javac Lab21.java
+
+Z:\mca16.java>java Lab21
+t1=NEW
+t2=NEW
+t1=RUNNABLE
+t2=NEW
+thread is running
+thread is running
+t1=RUNNABLE
+t2=TERMINATED
